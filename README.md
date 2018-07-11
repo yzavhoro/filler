@@ -7,5 +7,14 @@ form of a Ruby executable) gives them, earning points. The game stops as soon as
 piece can no longer be placed.
 
 Example of usage:
+
 make
 ./filler_vm -f maps/map00 -p1 ./yzavhoro.filler -p2 players/hcao.filler
+
+or 
+
+./filler_vm -f maps/map00 -p1 ./yzavhoro.filler -p2 players/hcao.filler | sh visualisation/script.sh
+
+to enable visualisation.
+
+Enjoy!
